@@ -1,0 +1,16 @@
+name: AquaDev-Spradzanie
+version: 1.0.3
+main: pl.aquadev.sprawdzanie.AquaDevSprawdzanie
+api-version: '1.21'
+commands:
+  aquadev-sprawdz:
+    aliases: [sprawdz]
+  aquadev-ustawsprawdzarke:
+    aliases: [ustawsprawdzarke, ustawaprawdzanie]
+  aquadev-gui:
+    aliases: [gui]
+  przyznajsie:
+    aliases: [przyznajsię]
+permissions:
+  aquadev.admin:
+    default: op
